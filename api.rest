@@ -1,0 +1,29 @@
+###
+GET http://localhost:4000/api/empleados
+
+###
+POST http://localhost:4000/api/empleados
+Content-Type: application/json
+
+{
+    "nombre": "edmad",
+    "cargo": "Junior developer",
+    "oficina": "Asgard",
+    "salario": "1600"
+}
+
+###
+GET http://localhost:4000/api/empleados/601cf2e9edc3964034ca6093
+
+
+###
+DELETE  http://localhost:4000/api/empleados/601cf8e07ad0660b389493d2
+
+###
+PUT  http://localhost:4000/api/empleados/601cf64faebe323ff044bf31
+Content-Type: application/json
+
+{
+    
+    "salario": "16000000"
+}
